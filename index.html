@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>All Images</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main id="app">
+    <header class="topbar">
+      <h1>Images</h1>
+      <p class="sub">Tap any image to view fullscreen. Scroll to see them all.</p>
+    </header>
+
+    <section class="gallery" id="gallery"></section>
+
+    <div id="viewer" class="viewer hidden" role="dialog" aria-hidden="true">
+      <button id="closeBtn" class="close" aria-label="Close">✕</button>
+      <img id="viewerImg" src="" alt="Full view" />
+    </div>
+  </main>
+
+  <script type="module" src="script.js"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"4c6229722a6346bc8eb5cb0e5eae5d41","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
